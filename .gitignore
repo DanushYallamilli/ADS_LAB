@@ -1,0 +1,7 @@
+# Ignore compiled executables (files with no extension)
+*
+!*.*
+!.gitignore
+
+# Ignore macOS system files
+.DS_Store
