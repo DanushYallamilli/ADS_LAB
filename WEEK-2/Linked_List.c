@@ -53,7 +53,7 @@ void insert()
   {
     struct node* t = head;
     int c = 1;
-    while(c < pos-1 && t != NULL && t->next != NULL)
+    while(c < pos - 1 && t->next != NULL)
     {
       t = t->next;
       c++;
